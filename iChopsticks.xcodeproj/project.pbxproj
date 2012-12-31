@@ -15,7 +15,9 @@
 		D08FD9AF16910AC7006AE9A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FD9AE16910AC7006AE9A8 /* AppDelegate.m */; };
 		D08FD9B216910AC7006AE9A8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08FD9B016910AC7006AE9A8 /* MainStoryboard_iPhone.storyboard */; };
 		D08FD9B516910AC7006AE9A8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08FD9B316910AC7006AE9A8 /* MainStoryboard_iPad.storyboard */; };
-		D08FD9B816910AC7006AE9A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FD9B716910AC7006AE9A8 /* ViewController.m */; };
+		D08FD9C016910C2A006AE9A8 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FD9BF16910C2A006AE9A8 /* GameViewController.m */; };
+		D08FD9C316910DBA006AE9A8 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FD9C216910DBA006AE9A8 /* Player.m */; };
+		D08FD9C616910DD8006AE9A8 /* Hand.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FD9C516910DD8006AE9A8 /* Hand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,20 @@
 		D08FD99E16910AC7006AE9A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D08FD9A016910AC7006AE9A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D08FD9A216910AC7006AE9A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D08FD9A616910AC7006AE9A8 /* iChopsticks-Info.plist */ = {isa = PBXFileReference; path = "iChopsticks-Info.plist"; sourceTree = "<group>"; };
+		D08FD9A616910AC7006AE9A8 /* iChopsticks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iChopsticks-Info.plist"; sourceTree = "<group>"; };
 		D08FD9A816910AC7006AE9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D08FD9AA16910AC7006AE9A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D08FD9AC16910AC7006AE9A8 /* iChopsticks-Prefix.pch */ = {isa = PBXFileReference; path = "iChopsticks-Prefix.pch"; sourceTree = "<group>"; };
-		D08FD9AD16910AC7006AE9A8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D08FD9AC16910AC7006AE9A8 /* iChopsticks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iChopsticks-Prefix.pch"; sourceTree = "<group>"; };
+		D08FD9AD16910AC7006AE9A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D08FD9AE16910AC7006AE9A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D08FD9B116910AC7006AE9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D08FD9B416910AC7006AE9A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D08FD9B616910AC7006AE9A8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		D08FD9B716910AC7006AE9A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D08FD9BE16910C2A006AE9A8 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		D08FD9BF16910C2A006AE9A8 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
+		D08FD9C116910DBA006AE9A8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		D08FD9C216910DBA006AE9A8 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		D08FD9C416910DD8006AE9A8 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
+		D08FD9C516910DD8006AE9A8 /* Hand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,16 @@
 		D08FD9A416910AC7006AE9A8 /* iChopsticks */ = {
 			isa = PBXGroup;
 			children = (
+				D08FD9BE16910C2A006AE9A8 /* GameViewController.h */,
+				D08FD9BF16910C2A006AE9A8 /* GameViewController.m */,
+				D08FD9C116910DBA006AE9A8 /* Player.h */,
+				D08FD9C216910DBA006AE9A8 /* Player.m */,
+				D08FD9C416910DD8006AE9A8 /* Hand.h */,
+				D08FD9C516910DD8006AE9A8 /* Hand.m */,
 				D08FD9AD16910AC7006AE9A8 /* AppDelegate.h */,
 				D08FD9AE16910AC7006AE9A8 /* AppDelegate.m */,
-				D08FD9B016910AC7006AE9A8 /* MainStoryboard_iPhone.storyboard */,
 				D08FD9B316910AC7006AE9A8 /* MainStoryboard_iPad.storyboard */,
-				D08FD9B616910AC7006AE9A8 /* ViewController.h */,
-				D08FD9B716910AC7006AE9A8 /* ViewController.m */,
+				D08FD9B016910AC7006AE9A8 /* MainStoryboard_iPhone.storyboard */,
 				D08FD9A516910AC7006AE9A8 /* Supporting Files */,
 			);
 			path = iChopsticks;
@@ -166,7 +176,9 @@
 			files = (
 				D08FD9AB16910AC7006AE9A8 /* main.m in Sources */,
 				D08FD9AF16910AC7006AE9A8 /* AppDelegate.m in Sources */,
-				D08FD9B816910AC7006AE9A8 /* ViewController.m in Sources */,
+				D08FD9C016910C2A006AE9A8 /* GameViewController.m in Sources */,
+				D08FD9C316910DBA006AE9A8 /* Player.m in Sources */,
+				D08FD9C616910DD8006AE9A8 /* Hand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
